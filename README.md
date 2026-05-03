@@ -1,5 +1,11 @@
 # FR Tender To CN DOCX
 
+## Agent Skill / 智能体技能
+
+这是一个面向 Codex/AI agent 工作流的 agent skill。`SKILL.md` 描述了 agent 应如何识别 OCR 标书输入、调用脚本、检查 QA 摘要，并在生成 Word 文档前完成术语和结构复核。
+
+This repository is an agent skill for Codex/AI-agent workflows. `SKILL.md` explains how an agent should identify OCR tender inputs, run the scripts, inspect QA summaries, and review terminology and structure before producing Word output.
+
 ## 中文简介
 
 `fr-tender-to-cn-docx` 用于将法语（阿尔及利亚语境）标书或磋商文件的 OCR 结果翻译为中文，并整理输出为格式规范的 Word 文档。它适合输入为 `.md` 或 `.json` 的 OCR 文本，尤其适用于招标文件、询价文件、评分标准、技术附件和附件模板等结构复杂的采购资料。
