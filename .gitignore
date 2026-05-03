@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+.env
+.venv/
+venv/
+dist/
+build/
+*.docx
+*.md.tmp
+!README.md
+!SKILL.md
+!references/*.md
